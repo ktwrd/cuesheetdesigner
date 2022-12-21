@@ -31,5 +31,7 @@ namespace CueSheetDesigner
         }
         public List<CueTrack> Tracks { get; set; }
         public List<CueFile> Files { get; set; }
+        public string Title { get; set; }
+        public string Performer { get; set; }
     }
 }

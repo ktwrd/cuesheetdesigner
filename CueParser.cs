@@ -47,6 +47,11 @@ namespace CueSheetDesigner
                         currentKeyPairs["_INDEXTS"] = splitted[2];
                         break;
                 }
+                if (instance.Tracks.Count < 1)
+                {
+                    instance.Performer = GetKey(currentKeyPairs, "PERFORMER") ?? "";
+                    instance.Title = GetKey(currentKeyPairs, "TITLE") ?? "";
+                }
                 var last = instance.Tracks.LastOrDefault();
                 if (last != null)
                 {

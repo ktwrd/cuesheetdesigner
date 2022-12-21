@@ -21,6 +21,10 @@ namespace CueSheetDesigner
         private void ReloadListView(CueData data)
         {
             listView1.Items.Clear();
+            Text = "Cue Sheet Designer";
+            if (data == null)
+                return;
+            Text = $"Cue Sheet Designer ({data.Performer} - {data.Title})";
             foreach (var item in data.Tracks)
             {
                 var duration = CalculateDuration(data, item);
