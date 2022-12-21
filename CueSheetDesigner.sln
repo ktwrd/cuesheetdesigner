@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CueSheetDesigner", "CueSheetDesigner.csproj", "{5E0EB17D-6F3D-4BC4-9379-EA2C82F11316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E0EB17D-6F3D-4BC4-9379-EA2C82F11316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E0EB17D-6F3D-4BC4-9379-EA2C82F11316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E0EB17D-6F3D-4BC4-9379-EA2C82F11316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E0EB17D-6F3D-4BC4-9379-EA2C82F11316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C864A0C-F70A-42F3-B777-4B64817ECFE6}
+	EndGlobalSection
+EndGlobal
